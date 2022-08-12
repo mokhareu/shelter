@@ -1,5 +1,81 @@
+@font-face {
+  font-family: "Georgia";
+  src: url(/assets/fonts/georgia.ttf);
+}
+@font-face {
+  font-family: "Arial";
+  src: url(/assets/fonts/arialmt.ttf);
+}
 h1 {
-  display: inline;
+  width: 100px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: rgb(190, 121, 121);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header_container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_titile {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  /* or 35px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  /* color-primary */
+  color: #F1CDB3;
+}
+
+.logo_subtitle {
+  display: block;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  /* color-light-xl */
+  color: #FFFFFF;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #CDCDCD;
+}
+
+.navigation_link {
+  margin-left: 35px;
+  font-family: arial;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #CDCDCD;
 }
 
 /*# sourceMappingURL=main.css.map */
